@@ -1,0 +1,16 @@
+|--- color_intensity <= 3.82
+|   |--- color_intensity <= 3.46
+|   |   |--- class: 1
+|   |--- color_intensity >  3.46
+|   |   |--- class: 1
+|--- color_intensity >  3.82
+|   |--- flavanoids <= 1.58
+|   |   |--- ash <= 2.17
+|   |   |   |--- class: 2
+|   |   |--- ash >  2.17
+|   |   |   |--- class: 2
+|   |--- flavanoids >  1.58
+|   |   |--- proline <= 724.50
+|   |   |   |--- class: 1
+|   |   |--- proline >  724.50
+|   |   |   |--- class: 0
